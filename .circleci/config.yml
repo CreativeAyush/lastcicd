@@ -34,7 +34,7 @@ jobs:
       - run:
           name: Deploy to S3
           command: |
-            aws s3 sync /workspace/src/ s3://amankattusajhedar/ --delete
+            aws s3 sync /workspace/src/ s3://cicdbucketayush/ --delete
  
 workflows:
   version: 2
